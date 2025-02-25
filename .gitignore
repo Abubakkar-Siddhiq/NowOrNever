@@ -1,0 +1,38 @@
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# dependencies
+client/NowOrNeverApp/node_modules/
+
+# Expo
+client/NowOrNeverApp/.expo/
+client/NowOrNeverApp/dist/
+client/NowOrNeverApp/web-build/
+client/NowOrNeverApp/expo-env.d.ts
+
+# Native
+client/NowOrNeverApp/*.orig.*
+client/NowOrNeverApp/*.jks
+client/NowOrNeverApp/*.p8
+client/NowOrNeverApp/*.p12
+client/NowOrNeverApp/*.key
+client/NowOrNeverApp/*.mobileprovision
+
+# Metro
+client/NowOrNeverApp/.metro-health-check*
+
+# debug
+client/NowOrNeverApp/npm-debug.*
+client/NowOrNeverApp/yarn-debug.*
+client/NowOrNeverApp/yarn-error.*
+
+# macOS
+client/NowOrNeverApp/.DS_Store
+client/NowOrNeverApp/*.pem
+
+# local env files
+client/NowOrNeverApp/.env*.local
+
+# typescript
+client/NowOrNeverApp/*.tsbuildinfo
+
+client/NowOrNeverApp/app-example
