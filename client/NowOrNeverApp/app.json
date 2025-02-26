@@ -1,11 +1,11 @@
 {
   "expo": {
     "name": "NowOrNeverApp",
-    "slug": "NowOrNeverApp",
+    "slug": "nowornever",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "myapp",
+    "scheme": "nowornever",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
